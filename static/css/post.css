@@ -14,10 +14,23 @@ body{
     background-color: black;
 
 }
-header{
 
-    text-align: center;
+header{
+    background:  #f4f4f4;
+    box-shadow: 0 0 15px -10px black;
+    padding: 15px 25px;
+    position: fixed;
+    width: 100%;
+    top: 0; 
+    background-color: #000 ;
+    color: #00891E;
+    justify-content: space-between;
+    border: 5px solid #00891E; 
+    display: flex;
+    align-items: center;
 }
+
+
 
 .navigation_header img {
     width: 20px;
@@ -27,10 +40,18 @@ header{
 }
 
 #logo{
-    margin-top: 20px;
     width: 70px;
     height: auto;
 }
+
+.navigation_header a {
+    text-decoration: none;
+    color: #FFF5E1;
+    padding: 10px;
+    margin-top: 5px;
+    justify-content: center;
+}
+
 
 
 
